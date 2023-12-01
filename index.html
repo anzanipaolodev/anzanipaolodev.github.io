@@ -2,6 +2,8 @@
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style type="text/css">
             html, body {
                 height: 100%;
@@ -21,20 +23,42 @@
             }
 
             ul li:before {
-              content: "-"; /* Set the content to a hyphen */
-              margin-right: 5px; 
+                content: "-"; /* Set the content to a hyphen */
+                margin-right: 5px; 
+            }
+
+            .heading {
+                display: flex;
+                align-items: flex-end;
+                max-height: 100px;
+            }
+
+            .heading h1, p {
+                margin: 0;
+            }
+
+            .heading p {
+                padding-bottom: 5px;
+            }
+
+            .heading h1 {
+                margin-bottom: 5px;
             }
         </style>
         <title>Paolo Anzani</title>
     </head>
     <body>
         <div class="content">
-            <!-- Page content here -->
-            <h1>Paolo Anzani</h1>
-            <p>Just my personal thoughts, keeping complexity low.</p>
+            <div class="heading">
+                <div>
+                    <h1>Paolo Anzani</h1>
+                    <p>Just my personal thoughts, keeping complexity low.</p>
+                </div>
+            </div>
             <hr>
             
-            <p>Dont have a cv, here is my github <a href="https://github.com/anzanipaolodev">page</a>.</p>
+            <p style='padding-top: 5px;'>Dont have a cv, here is my github <a href="https://github.com/anzanipaolodev">page</a>.</p>
+            <br>
             <div id="posts">
                 <h2>Posts</h2>
                 <ul>

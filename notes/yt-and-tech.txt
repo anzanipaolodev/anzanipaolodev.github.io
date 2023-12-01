@@ -1,0 +1,64 @@
+Tech tubers
+---
+People passionate about consumer electronics:
+    - Smartphones
+    - Laptop
+    - Iot devices
+    - "Smart" devices
+
+They usually do not have a strong knowledge about computers
+Yet they think they have
+
+- Very rarely know how software layer work
+    - When they talk about software they talk about:
+        - UI/UX -> GOOD
+        - Performance -> GOOD
+
+- Almost never know how hardware layer work (they think they know this well -> BIG PROBLEM)
+    - When talk about hardware they talk about:
+        - Specs -> BAD
+        - Benchmarks -> BAD
+        - Hardware bench marks comparison -> VERY BAD
+
+Whats the problem about hardware opinions
+---
+1. They do not have knowledge to properly understand specs
+2. Not knowing software = Not knowing drivers = Not understand hardware performace
+
+Usually make wrong assumptions:
+    - higher clock speed = faster performance
+    - synthetic benchmarks are a vaild way to evaluate and compare hardware performance
+    - more ram/ more ram speed = always better performance
+    - software does not have much influence on hardware performance
+
+They think that software matters just on application benchmarks -> TOTALLY WRONG
+
+How to better evaluate hardware
+---
+1. Application benchmark over Synthetic benchmarks
+2. Value your use case (eg. Look for benchmarks of applications you will use)
+3. Understand that software matters
+4. Understand that more ram != more power, more speed
+    - For most people 8GB of ram is more than enough on most of hardware
+
+Reccomendations
+---
+Top choice for: 
+    1. General use laptop (no specific software requirements):
+        - Macbook air M1
+    2. Software engineering (if you need to run or develop on VMs check for support):
+        - Macbook air M1 (Slope shape is better than pro square shape)
+        - Windows specific -> Dell xps
+    3. Video editing / Content creation:
+        - Macbook pro 14 (more storage is better here)
+
+Why apple laptops are good:
+    - Good performance
+    - They last many years (5-10 years life span)
+
+    If you are a developer you use your computer everyday:
+        - Macbook air m1 at 1.229 Euro
+        - Use it for 5 years 
+        - It costs you ~= 0.7 Euro/day
+        - It provides you with at least 0.7 Euro of value every day? Absolutely
+            -> worth the money

@@ -1,0 +1,31 @@
+How to master something
+---
+- The 10'000 hours rule
+    - You got to do something at least 10'000 hours to get good at it
+
+- You want to master coding
+    - Spend 5h/day coding -> It will take ~= 5.5 years to get 10000 hours
+        - Spend 10/h day and it will take you half the time
+        - 10'000 / (h/day * 365) = time_in_years
+
+- Consistency is king
+    - Nothing matter if you can be consistent
+    - 90% of people will quit when their expecation are not realistics
+
+- 'The man who loves walking will walk further than the man who loves the destination' -cit Unknown
+
+- If you chase something for the sole purpose of money fame or status:
+    - 99% of the times you will not get anywhere
+
+- You must love the process in order not to quit on the first difficulties
+    - Do not do something just beacuse you think it will make you rich
+    - Always choose passion over money (if you do money will come anyway)
+
+What do you want to do in your life?
+---
+Two possible answer to this question:
+    1. I want to pursuit a dream, career etc.
+    2. I want to make money
+
+People who give the second answet almost never make any money
+-> Chasing money is NOT a way to make money

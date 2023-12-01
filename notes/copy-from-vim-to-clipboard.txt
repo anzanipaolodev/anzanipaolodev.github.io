@@ -1,0 +1,10 @@
+How to copy from vim to clipboard
+---
+Tested on MacOS 13.5.1 (22G90):
+    1. Select text in visual mode "v" "V" or "ctrl + V"
+    2. Use command `:w !pbcopy`
+    3. Paste with `cmd + v`
+
+Make sure that vim is compiled with `+clipboard` option
+    - Check with `:version`
+ 

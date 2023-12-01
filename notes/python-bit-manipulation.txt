@@ -1,0 +1,33 @@
+Python bit manipulation
+---
+Can be done two ways:
+    - Traditional operators (<<, >>, ^, &, ...)
+    - Using string/list manipulation utilities
+
+The second way could be use to write more concise code
+
+Make simple parity check
+    - Check if the sum of the bits of a number is even or odd
+    - parity(x) -> True | False
+    - parity(00011) -> bit_sum = 2 -> 2 % 2 == 0 -> True
+
+1. Using standard bit manipulation
+    ```python3
+
+    def _check_parity(self, number):
+        number = number & 0xff # cast to 8 bit integer
+        result = i = 0
+        while i < 8:
+            result += ((number >> i) & 0b1) # right shift by i and extract only the right-most bit
+            i += 1
+        return bool(result % 2 == 0)
+     ```
+2. Using string manipulation
+    ```python3
+    bool(bin(number & 0xff)[2:].count('1') % 2 == 0)
+    ```
+    - One line operation
+        - bin(int) -> str'0b00000011' -> [2:] (select everything except first 2 elements: '0b' -> '00000011'
+            -> count('1') -> 2 -> 2 % 2 == 0 -> True
+
+Using this technique to do bit manipulation could help reduce complexity of code

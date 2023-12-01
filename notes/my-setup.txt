@@ -1,0 +1,20 @@
+My setup
+---
+Computer:
+    - Macbook pro 13(2020) (last intel model btw)
+    - Intel i5 quad core 1.4GHz
+        - Still very performant for me
+
+Editor:
+    - Vim
+    - Vscode for bigger code bases (with vim extension)
+
+I have used emacs for almost 2 years
+    - Unecessary bloated
+    - Becomes laggy pretty quickly
+
+Desk:
+    - HP 24 inches FULL HD
+    - Apple magic mouse and magic keyboard (but mainly use the laptop keyboard)
+    
+

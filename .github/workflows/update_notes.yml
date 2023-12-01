@@ -21,7 +21,7 @@ jobs:
           python-version: '3.x'
           
     - name: Run notes.py script
-      run: python scripts/notes.py
+      run: python scripts/notes.py index.html notes/
 
     - name: Commit changes
       run: |

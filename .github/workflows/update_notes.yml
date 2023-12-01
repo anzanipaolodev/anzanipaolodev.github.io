@@ -1,0 +1,32 @@
+name: Update index.html on notes change
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    paths:
+      - 'notes/**'
+
+jobs:
+  update_index:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+          python-version: '3.x'
+          
+    - name: Run notes.py script
+      run: python scripts/notes.py
+
+    - name: Commit changes
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git add index.html
+        git commit -m "Update notes in index.html" || true
+        git push

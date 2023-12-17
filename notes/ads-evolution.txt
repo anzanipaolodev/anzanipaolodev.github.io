@@ -1,0 +1,13 @@
+New form of ads
+---
+New model of social media ads is annoying
+
+Old approach
+    - Decdicated side space for ads clearly distinct from other content
+    - Popups
+
+New approach
+    - Ads gets 'masked' as regular content
+    - Appear in the same feed and form of actual content
+    - Tagged with some words like ads, sponsored etc...
+
